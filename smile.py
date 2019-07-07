@@ -2,8 +2,8 @@ import cv2
 import numpy as np
 import sys
 
-facePath = "E:/My files/Python/opencv/sources/data/haarcascades_cuda/haarcascade_frontalface_default.xml"
-smilePath = "E:/My files/Python/opencv/sources/data/haarcascades/haarcascade_smile.xml"
+facePath = "haarcascade_frontalface_default.xml"
+smilePath = "haarcascade_smile.xml"
 faceCascade = cv2.CascadeClassifier(facePath)
 smileCascade = cv2.CascadeClassifier(smilePath)
 
